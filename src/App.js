@@ -294,7 +294,7 @@ class App extends Component {
     }
   }
 
-  playAgain = () => {
+   playAgain = () => {
     this.setState({
       score: 0,
       imgUrl: imagesList[0].imageUrl,
